@@ -12,7 +12,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Data
 @Builder
-@Table(value = "book")
+@Table(value = "book")	// @Table 을 사용해야 bean으로 등록이됨
 public class Book {
 
 	@Id
