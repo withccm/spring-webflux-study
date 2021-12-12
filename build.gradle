@@ -28,6 +28,11 @@ dependencies {
 
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+
+    testImplementation('org.springframework.boot:spring-boot-starter-test')
+    testImplementation 'io.projectreactor:reactor-test'
+    testImplementation 'io.projectreactor.tools:blockhound:1.0.6.RELEASE'
+    testImplementation 'io.projectreactor.tools:blockhound-junit-platform:1.0.6.RELEASE'
 }
 
 test {
